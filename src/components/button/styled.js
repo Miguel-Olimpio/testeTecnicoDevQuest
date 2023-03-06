@@ -9,6 +9,9 @@ const Div = styled.div`
 
 const Button = styled.button`
     ${ props => css`
+    @media(max-width: 767px) {
+        font-size: 10px;
+    }
         width: 50%;
         height: 40px;
         border-radius: 40px;
