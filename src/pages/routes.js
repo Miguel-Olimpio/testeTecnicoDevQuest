@@ -8,8 +8,8 @@ const AppRoutes = () => {
     return(
     <BrowserRouter>
         <Routes>
-            <Route exact path='/testeTecnicoDevQuest' element={<Pokemons/>} />
-            <Route exact path='/testeTecnicoDevQuest/:id' element={<SelectedPokemon/>} />
+            <Route exact path='/testeTecnnpm' element={<Pokemons/>} />
+            <Route exact path='/testeTecnnpm/:id' element={<SelectedPokemon/>} />
         </Routes>
     </BrowserRouter>
     )
