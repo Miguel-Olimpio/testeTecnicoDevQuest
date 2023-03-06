@@ -2,7 +2,7 @@
   "name": "final-quest",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Miguel-Olimpio.github.io/testeTecnnpm icoDevQuest",
+  "homepage": "https://Miguel-Olimpio.github.io/testeTecnicoDevQuest",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
