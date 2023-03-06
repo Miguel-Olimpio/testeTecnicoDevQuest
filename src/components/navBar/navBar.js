@@ -24,7 +24,7 @@ const NavBar = (props) => {
                     </Div>
                 ) }
                 {props.main === 'false' && (
-                    <StyledLink to={"/"}>back to main page...</StyledLink>
+                    <StyledLink to={"/testeTecnicoDevQuest/"}>back to main page...</StyledLink>
                 )}
         </Header>
     )
