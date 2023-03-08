@@ -1,6 +1,8 @@
 import { AppRoutes } from './pages/routes'
 import { createGlobalStyle } from 'styled-components';
 import { ThemeProvider } from './components/contexts/theme-context';
+import fundo from './components/images/fundo.png'
+
 
 function App() {
   return (
@@ -18,10 +20,9 @@ const CreateGlobalStyle = createGlobalStyle`
     text-decoration: none; 
   }
   body{
-    background-image: linear-gradient(
-      
-      45deg,#D3D3D3,#F0FFFF
-      );
+    background-image: url(${fundo});
+    background-repeat: no-repeat;
+    background-size: cover;
   }  
 `
 
