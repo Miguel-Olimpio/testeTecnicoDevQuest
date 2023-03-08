@@ -3,7 +3,7 @@ import React, { createContext, useState, useEffect } from "react";
 export const themes = {
     light: {
         navColor: '#0000CD',        
-        secondaryColor: '#00008B',
+        secondaryColor: '#87CEEB',
         inputColor: '#FFD700',
         buttonColor: ' #0000CD',
         color: '#000',
