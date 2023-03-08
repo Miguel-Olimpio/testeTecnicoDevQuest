@@ -48,9 +48,10 @@ const DisplayPokemons = () => {
         text: ''
     })
     const handleInputChange = async (event) => {
-        setInput({
-            text: event.target.value
-        })
+        const inputValue = event.target.value.toLowerCase();
+    setInput({
+        text: inputValue
+    })
     }
     const handleSubmit = async (event) => {
         event.preventDefault()
