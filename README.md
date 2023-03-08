@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-[(https://miguel-olimpio.github.io/)](https://Miguel-Olimpio.github.io/testeTecnicoDevQuest)
+https://Miguel-Olimpio.github.io/testeTecnicoDevQuest
 
 Este teste proposto pelo curso devemdobro tem a finalidade de testar os conhecimentos e capacidades do programador a fim de verificar se o mesmo possui os conhecimentos necessários para receber o certificado.
 O desafio inicial do projeto consiste em criar uma aplicação em React utilizando uma API através de determinados caminhos pré-estabelecidos, propostos como desafios.
