@@ -1,4 +1,8 @@
 # Teste tecnico DevQuest 
+
+To read this page in English: 
+[README-EN](https://github.com/Miguel-Olimpio/testeTecnicoDevQuest/blob/main/README-en.md)
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Miguel-Olimpio/desvQuest-testeTecnico/blob/main/LICENSE) 
 
 # Sobre o projeto
