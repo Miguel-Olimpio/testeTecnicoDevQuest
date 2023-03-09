@@ -3,6 +3,9 @@
 
 # About the project
 
+Para ler em português: 
+[README PT-BR](https://github.com/Miguel-Olimpio/testeTecnicoDevQuest/blob/main/README-ptbr.md)
+
 https://Miguel-Olimpio.github.io/testeTecnicoDevQuest
 
 This test was proposed by the course devemdobro with the goal to test the knowledge and skills of the developer.
