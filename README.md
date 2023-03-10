@@ -52,5 +52,5 @@ npm run test
 
 Miguel Olimpio de Paula Netto
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/miguel-olimpio-ba3220200/
 
