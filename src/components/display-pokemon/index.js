@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import {Pokemon} from '../pokemon/index'
 import { NavBar } from '../navBar/navBar';
 import { ThemeTogglerButton } from '../theme-toggler-button/theme-toggler-button';
@@ -59,7 +59,7 @@ const InfosSelectedPokemon = () => {
             })
         }
         fetchData()
-    }, [])
+    }, [id])
     return (
         <>
             <NavBar main='false' />

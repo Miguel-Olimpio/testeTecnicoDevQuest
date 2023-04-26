@@ -36,8 +36,12 @@ async function searchPokemon(name) {
         return pokemonData
     })
     const pokemons = await Promise.all(resultSearch)
-    console.log(pokemons)
-    return await pokemons
+    
+    if (pokemons.length === 0) {
+        return 'Pokemon inexistente'
+      } else {
+        return pokemons
+      }
 }
 
 const DisplayPokemons = () => {
