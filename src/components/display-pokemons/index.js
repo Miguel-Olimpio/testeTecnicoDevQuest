@@ -38,7 +38,7 @@ async function searchPokemon(name) {
     const pokemons = await Promise.all(resultSearch)
     
     if (pokemons.length === 0) {
-        return 'Pokemon inexistente'
+        return 'Non-existent pokemon'
       } else {
         return pokemons
       }
