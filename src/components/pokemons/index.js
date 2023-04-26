@@ -31,7 +31,7 @@ const Pokemons = (props) => {
                 </Ul>
             ) : (
                 <Ul>
-                    <Li><H3>{props.pokemons}</H3></Li>
+                    <Li><H3>Non-existent pokemon</H3></Li>
                 </Ul>
             )}
         </div>
