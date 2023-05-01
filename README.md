@@ -20,9 +20,9 @@ optei tambem ao fazer o fetch inicial para chamar uma lista de pokemons optei po
 
 ## Layout web
 
-![layout teste tecnico 1](https://user-images.githubusercontent.com/107503116/223182445-c1e11d77-16a2-4b9d-bb6d-b4a34028a432.png)
+(![img1](https://user-images.githubusercontent.com/107503116/235519628-7bd2e032-17e9-458a-a151-a11a88ba2924.png))
 
-![layout teste tecnico 2](https://user-images.githubusercontent.com/107503116/223183010-af759018-dfff-4bff-9547-03980e105efd.png)
+![img2](https://user-images.githubusercontent.com/107503116/235520012-bfd27f93-f40a-4433-847d-996f554f5793.png)
 
 # Tecnologias utilizadas
 ## Front end
