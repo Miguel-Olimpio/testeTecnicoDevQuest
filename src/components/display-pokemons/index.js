@@ -4,42 +4,7 @@ import React from "react";
 import { Pokemons } from '../pokemons'
 import { NavBar } from '../navBar/navBar'
 import { ThemeTogglerButton } from '../theme-toggler-button/theme-toggler-button';
-
-
-
-async function rafflePokemons() {
-    let sorteio = await ''
-    sorteio = await Math.floor((Math.random() * 1269) + 1)
-    return sorteio
-}
-
-async function toCallPokemons(prizeDraw) {
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/?offset=${prizeDraw}&limit=10`).then(res => res.json())
-    const pokemonsList = await response.results.map(async (pokemon) => {
-        const pokemonData = await fetch(pokemon.url).then(res => res.json())
-        return pokemonData
-    })
-    const pokemons = await Promise.all(pokemonsList)
-    return await pokemons
-}
-
-async function searchPokemon(name) {
-    const url = []
-    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/?limit=1279`).then(res => res.json())
-    await response.results.map(async (pokemon) => {
-        if (pokemon.name.includes(name)) {
-            url.push(pokemon.url)
-        }
-    })
-    const resultSearch = url.map(async (url) => {
-        const pokemonData = await fetch(url).then(res => res.json())
-        return pokemonData
-    })
-    const pokemons = await Promise.all(resultSearch)
-    
-    return pokemons
-     
-}
+import {searchPokemon, toCallPokemons, rafflePokemons} from '../../requests/requests'
 
 const DisplayPokemons = () => {
     const [pokemon, setPokemon] = useState({
@@ -91,4 +56,4 @@ const DisplayPokemons = () => {
     )
 }
 
-export { DisplayPokemons, rafflePokemons, toCallPokemons, searchPokemon };
+export { DisplayPokemons };

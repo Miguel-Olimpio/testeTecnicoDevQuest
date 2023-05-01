@@ -3,34 +3,7 @@ import { useParams } from 'react-router-dom';
 import {Pokemon} from '../pokemon/index'
 import { NavBar } from '../navBar/navBar';
 import { ThemeTogglerButton } from '../theme-toggler-button/theme-toggler-button';
-
-async function toCallPokemon(id) {
-    return await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then(res => res.json())
-}
-  
-async function toCallAbilities(abilitys) {
-    const ability = abilitys.map(async (abilitys) => {
-        return await fetch(`${abilitys.ability.url}`).then(res => res.json())
-    })
-    return await Promise.all(ability)
-}
-
-async function selectLanguage(description) {
-    const arrayDescriptions = [];
-    description.flavor_text_entries.map(async (languages) => {
-      if (languages.language.name === 'en') {
-        const result = await languages.flavor_text;
-        arrayDescriptions.push(result);
-      }
-    });
-    const resultado = await arrayDescriptions;
-  
-    if (resultado.length === 0) {
-      return '';
-    }
-  
-    return resultado[0];
-  }
+import {selectLanguage, toCallAbilities, toCallPokemon} from '../../requests/requests';
     
 const InfosSelectedPokemon = () => {
     const [infos, setInfos] = useState({
@@ -69,4 +42,4 @@ const InfosSelectedPokemon = () => {
     )
 }
 
-export { InfosSelectedPokemon, toCallPokemon, toCallAbilities, selectLanguage }
+export { InfosSelectedPokemon }
